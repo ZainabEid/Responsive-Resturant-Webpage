@@ -1,0 +1,54 @@
+.form--container{
+    display: flex;
+    justify-content: center;
+}
+
+.form--container >.form-container-wrapper{    
+    width: 1000px;
+  display: grid;
+  grid-template-columns:1fr 2fr;
+  grid-gap:30px;
+}
+
+/*left-column-styles*/
+.form--container > .form-container-wrapper>.left-column-wrapper{
+    display: flex;
+    justify-content: center;    
+    float: left;
+}
+
+.form--container>.form-container-wrapper > .left-column-wrapper> .left-column{
+    width: 200px;
+    display: grid;
+    grid-gap:15px;
+    grid-template-columns:5fr;    
+    height:300px;
+}
+.left-column-wrapper>.left-column>.logo{
+    display: flex;
+    justify-content: center;
+}
+.left-column-wrapper> .left-column>.logo>.logo-image-wrapper img{
+    width: 170px;
+}
+
+.left-column-wrapper>.left-column>.left-column-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-column-wrapper>.left-column>.left-column-item>.icon{
+    color: #cea135;
+    font-size: 20px;   
+}
+
+.left-column-wrapper>.left-column>.left-column-item>.contact-data{
+    text-align: right;
+    font-weight: 1000;
+    font-size:21px;
+    font-family: 'Ubuntu Condensed', sans-serif;   
+
+}
+.form-wrapper{
+    width: 100%;
+}

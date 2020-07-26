@@ -1,0 +1,96 @@
+.form> .form-element{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form input{
+    font-size:1.5rem;
+    font-family: inherit;
+    color: inherit;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    border: none;
+    border-bottom: 3px solid #11122B;
+    display: block;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.form input:focus{
+    outline: none;
+    border: none;
+    box-shadow: 0px 22px 40px -21px rgba(0,0,0,0.14);
+    border-bottom:3px solid #cea135;
+
+}
+
+.form textArea{
+    margin-top:60px;
+    border: 3px solid #11122B;
+    border-radius: 3px;
+    width:100%;
+    height:250px;
+    display: block;
+    transition: all 0.3s;
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: inherit;
+    padding: 1.5rem 2rem;   
+}
+
+
+
+.form label{
+    color:#cea135;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-family: inherit;
+    display: block;    
+    transition: all 0.3s;
+    visibility: hidden;
+    opacity: 0;
+}
+.form input:focus + label, .form textArea:focus + label{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(1.5rem);
+}
+
+.form textArea:focus{
+    outline: none;
+    box-shadow: 0px 22px 40px -21px rgba(0,0,0,0.14);   
+    border-color: #cea135;
+}
+
+.form input::-webkit-input-placeholder, .form textArea::-webkit-input-placeholder{
+    color: #11122B;
+}   
+
+.form input:focus::-webkit-input-placeholder, .form textArea:focus::-webkit-input-placeholder{
+    color: transparent;
+}   
+
+/*button Styles*/
+
+.btn-background-div{
+    display: flex;
+    justify-content: center;
+}
+
+.form button{
+    outline: none;
+    background-color: #cea135;
+    width: 150px;
+    height: 60px;
+    border:1px solid #cea135;
+    border-radius: 2px;
+    color:#11122B;
+    font-size:1.5rem;
+    font-family: inherit;
+}
+
+.form button:active{
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.7)
+}

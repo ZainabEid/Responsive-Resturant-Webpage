@@ -1,0 +1,35 @@
+.hero-section{
+   background-image: url(../images/background/fries-hero-bg.jpg);
+   height:300px;
+   padding: 100px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   }   
+   
+/*   .hero-section > .heading-wrapper {
+       display: grid;
+        grid-template-columns: 1fr;
+        grid-gap:10px;
+   }*/
+   
+   .hero-section > .heading-wrapper > .top-heading{
+       padding: 1px 20px;
+       background-color: #11122B;
+       width: 290px;
+       color: #cbcbcb;
+       border-radius: 2px;
+      
+        
+   }
+     .hero-section > .heading-wrapper > .bottom-heading{
+       background-color: #cea135;
+       width: 107px;
+       color: #11122B;
+       padding: 1px 20px;
+       border-radius: 2px;
+       margin-top: 15px
+        
+   }
+   

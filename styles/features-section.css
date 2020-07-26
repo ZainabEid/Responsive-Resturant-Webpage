@@ -1,0 +1,54 @@
+.feature-section{
+    height: 400px;
+    background-color: #cea135;        
+    background-image: url(../images/background/fries-multiply-bg.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #11122B;
+    border-top: 10px solid white;
+    font-family: 'Ubuntu Condensed', sans-serif;   
+    /* Box Sadow Generator:   https://www.cssmatic.com/box-shadow    */
+    box-shadow: inset 0px -19px 41px -12px rgba(0,0,0,0.45);
+}
+
+.feature-section> .column-wrapper{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.feature-section > .column-wrapper > .column{
+    padding: 20px;
+    text-align: center;
+    margin: 42px;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+    
+}
+
+.feature-section > .column-wrapper > .column:hover{
+    border-bottom: 5px solid  #11122B;
+    
+}
+
+.feature-section > .column-wrapper > .column :nth-child(1){
+    font-size: 3em;
+}
+
+.feature-section > .column-wrapper > .column :nth-child(2){
+    font-size: 1em;
+    height: 50px;
+    font-weight:  900;
+    transition: 1s;    
+}
+
+.feature-section > .column-wrapper > .column :nth-child(2):hover{
+  letter-spacing: 2px;
+}
+
+.feature-section > .column-wrapper > .column :nth-child(3){
+  letter-spacing: 2px;
+}
+

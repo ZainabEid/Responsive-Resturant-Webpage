@@ -1,0 +1,39 @@
+/*square photos*/
+.square-wrapper {
+       display: flex;
+       justify-content: center;
+}
+
+ .square-wrapper > .about-page-square-photo {
+   width: 1000px;
+}
+
+.square-wrapper > .about-page-square-photo > .row{
+    display: grid;
+    grid-template-columns : 1fr 1fr;    
+    margin-top:-4px;
+}
+
+  .row > .image-wrapper  img{
+    width:100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+ .square-wrapper > .about-page-square-photo> .row > .photo-discryption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+
+ .square-wrapper> .about-page-square-photo> .row > .photo-discryption h1 {
+  color: #cea135;
+  font-weight: 900;  
+}
+
+.square-wrapper > .about-page-square-photo> .row > .photo-discryption p {
+    text-align: justify;
+}
